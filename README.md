@@ -6,13 +6,25 @@ For this project I decided to use Linux so I could install NS2 easily and run al
 
 ## TCL file
 To run the TCL file from the command line: 
-$ ns Sneddon_Jason.tcl. 
 
-This would open the nam simulation to provide a visual of the network, and then it would generate a trace file called: Sneddon_Jason.tr. 
+
+```
+$ ns Sneddon_Jason.tcl. 
+```
+
+This would open the nam simulation to provide a visual of the network, and then it would generate a trace file called: 
+
+```
+Sneddon_Jason.tr. 
+```
 
 ## AWK files
 To execute all the AWK files: 
+
+```
 $ awk -f < file_name >.awk Sneddon_Jason.tr
+```
+
 
 For all the AWK files, I wrote the data to the associated files and output a report of the data to the terminal to make it more interactive. 
 
